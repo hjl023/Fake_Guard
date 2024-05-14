@@ -1,6 +1,6 @@
 ## Image Part
 
-Efficientnet 논문을 기반으로 하여 사전학습된 모델을 기반으로 kodf 데이터를 MTCCN으로 얼굴을 크롭하여 파인 튜닝.
+EfficientNet 논문을 기반으로 하여 사전학습된 모델을 기반으로 kodf 데이터를 MTCCN으로 얼굴을 크롭하여 파인 튜닝.
 
 ### Train
 
@@ -13,11 +13,11 @@ kodf데이터는 한 영상안에 진짜와 가짜를 변화시키거나 변조�
 
 ### Evaluation
 
-트레인에 사용하지 않은 kodf데이터와 dfdc데이터를 이용하여 평가를 실시
+트레인에 사용하지 않은 KoDF데이터와 DFDC데이터를 이용하여 평가를 실시
 
 평가로 나온 추론이 실제와 같은지 확인하여 acc를 평가
 
-무엇을 보고 추론을 한 것인지 알기 위해 grad_cam을 이용하여 시각화
+무엇을 보고 추론을 한 것인지 알기 위해 XAI인 grad_cam을 이용하여 시각화
 
 주로 눈과 입을 보고 있는것을 확인
 
@@ -28,4 +28,4 @@ kodf와 dfdc를 사용한 평가와 비슷한 결과를 보여줌
 
 ### Reference
 
-efficiennet 논문 : https://arxiv.org/pdf/1905.11946
+EfficientNet 논문 : https://arxiv.org/pdf/1905.11946
